@@ -1,5 +1,4 @@
-// import { createFileRoute } from "@tanstack/react-router";
-import { Link } from "react-router-dom";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import {
@@ -32,14 +31,14 @@ import {
   TrendingUp,
 } from "lucide-react";
 
-// export const Route = createFileRoute("/")({
-//   component: LandingPage,
-// });
+export const Route = createFileRoute("/")({
+  component: LandingPage,
+});
 
 const PRIMARY = "#1f5c46";
 const SECONDARY = "#10b981";
 
-export default function LandingPage() {
+function LandingPage() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 

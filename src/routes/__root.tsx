@@ -5,7 +5,7 @@ import { AppSidebar } from "../components/layout/AppSidebar";
 import { Topbar } from "../components/layout/Topbar";
 import { isAuthed } from "../lib/auth";
 import { useEffect, useState } from "react";
-import appCss from "../styles.css?url";
+import appCss from "../index.css?url";
 
 const PUBLIC_ROUTES = ["/", "/login", "/signup", "/forgot-password"];
 

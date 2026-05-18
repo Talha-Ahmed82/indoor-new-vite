@@ -1,6 +1,5 @@
-import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Loader2, Upload, Check, ArrowRight, ArrowLeft } from "lucide-react";
 import { AuthShell, AuthInput } from "../components/auth/AuthShell";

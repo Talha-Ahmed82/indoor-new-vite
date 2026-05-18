@@ -1,13 +1,13 @@
-import './App.css'
-import LandingPage from './routes'
+// import './App.css'
+// import LandingPage from './routes'
 
-function App() {
+// function App() {
 
-  return (
-    <>
-     <LandingPage />
-    </>
-  )
-}
+//   return (
+//     <>
+//      <LandingPage />
+//     </>
+//   )
+// }
 
-export default App
+// export default App
