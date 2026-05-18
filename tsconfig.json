@@ -4,6 +4,7 @@
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ],
+  "extends": "./tsconfig.json",
    "compilerOptions": {
     "strict": true,
     "strictNullChecks": true
