@@ -1,8 +1,11 @@
 {
+   "extends": "./tsconfig.json",
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "target": "es2023",
     "lib": ["ES2023", "DOM"],
+     "strict": true,
+    "strictNullChecks": true,
     "module": "esnext",
     "types": ["vite/client"],
     "skipLibCheck": true,
